@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> renders Home 1`] = `
+<Fragment>
+  <Container
+    fluid={true}
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        xs={12}
+      >
+        <AddTodo />
+      </Col>
+      <Col
+        xs={12}
+      >
+        <ToDos
+          title="To Do Tasks"
+        >
+          <AwaitLoading>
+            <ToDoList
+              message="Please add items in list by creating a task"
+              todos={Array []}
+            />
+          </AwaitLoading>
+        </ToDos>
+      </Col>
+      <Col
+        xs={12}
+      >
+        <ToDos
+          title="Done Tasks"
+        >
+          <AwaitLoading>
+            <ToDoList
+              isComplete={true}
+              message="Please complete a task"
+              todos={Array []}
+            />
+          </AwaitLoading>
+        </ToDos>
+      </Col>
+    </Row>
+  </Container>
+</Fragment>
+`;

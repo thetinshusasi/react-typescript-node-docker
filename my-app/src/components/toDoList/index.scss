@@ -1,0 +1,16 @@
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.btnGroup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.btn {
+    margin-bottom: 10px;
+}

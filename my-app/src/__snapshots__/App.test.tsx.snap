@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<Switch>
+  <Route
+    exact={true}
+    path="/home"
+  >
+    <TodosProvider>
+      <Home />
+    </TodosProvider>
+  </Route>
+  <Route>
+    <Redirect
+      to="/home"
+    />
+    ;
+  </Route>
+</Switch>
+`;

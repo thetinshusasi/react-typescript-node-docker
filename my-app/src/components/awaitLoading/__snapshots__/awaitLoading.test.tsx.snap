@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddTodo /> renders AddTodo 1`] = `
+<Fragment>
+  <Row
+    noGutters={false}
+  >
+    <Col
+      className="content"
+      xs={12}
+    >
+      <div>
+        Test
+      </div>
+    </Col>
+  </Row>
+</Fragment>
+`;
+
+exports[`<AddTodo /> renders AddTodo loading 1`] = `
+<Fragment>
+  <Row
+    noGutters={false}
+  >
+    <Col
+      className="spinnerContainer"
+      xs={12}
+    >
+      <Spinner
+        animation="border"
+        variant="primary"
+      />
+    </Col>
+  </Row>
+</Fragment>
+`;
+
+exports[`<AwaitLoading /> renders AwaitLoading 1`] = `
+<Fragment>
+  <Row
+    noGutters={false}
+  >
+    <Col
+      className="content"
+      xs={12}
+    >
+      <div>
+        Test
+      </div>
+    </Col>
+  </Row>
+</Fragment>
+`;

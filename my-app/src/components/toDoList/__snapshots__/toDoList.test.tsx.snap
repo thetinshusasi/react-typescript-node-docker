@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToDoList /> renders ToDoList 1`] = `
+<ForwardRef
+  bordered={true}
+  hover={true}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <th>
+        #
+      </th>
+      <th>
+        Title
+      </th>
+      <th>
+        Description
+      </th>
+      <th
+        className="text-center"
+      >
+        Actions
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        colSpan={4}
+      >
+        <h3
+          className="message"
+        >
+           
+          No items in list
+        </h3>
+      </td>
+    </tr>
+  </tbody>
+</ForwardRef>
+`;
+
+exports[`<ToDoList /> renders ToDoList 2`] = `
+<ForwardRef
+  bordered={true}
+  hover={true}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <th>
+        #
+      </th>
+      <th>
+        Title
+      </th>
+      <th>
+        Description
+      </th>
+      <th
+        className="text-center"
+      >
+        Actions
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        1
+      </td>
+      <td>
+        title
+      </td>
+      <td>
+        description
+      </td>
+      <td>
+        <div
+          className="btnGroup"
+        >
+          <Button
+            active={false}
+            className="btn"
+            disabled={false}
+            onClick={[Function]}
+            variant="success"
+          >
+            Done
+          </Button>
+          <Button
+            active={false}
+            className="btn"
+            disabled={false}
+            onClick={[Function]}
+            variant="danger"
+          >
+            Delete
+          </Button>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</ForwardRef>
+`;

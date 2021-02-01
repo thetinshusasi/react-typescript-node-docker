@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddTodo /> renders AddTodo 1`] = `
+<Row
+  noGutters={false}
+>
+  <Col
+    className="m10px"
+    sm={3}
+    xs={12}
+  >
+    <FormControl
+      name="title"
+      onChange={[Function]}
+      placeholder="Title"
+      type="text"
+      value=""
+    />
+  </Col>
+  <Col
+    className="m10px"
+    sm={6}
+    xs={12}
+  >
+    <FormControl
+      name="description"
+      onChange={[Function]}
+      placeholder="description"
+      type="text"
+      value=""
+    />
+  </Col>
+  <Col
+    className="m10px"
+    sm={3}
+    xs={12}
+  >
+    <Button
+      active={false}
+      block={true}
+      disabled={false}
+      onClick={[Function]}
+      variant="primary"
+    >
+      Add Task
+    </Button>
+  </Col>
+</Row>
+`;
